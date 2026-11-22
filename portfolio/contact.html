@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Me contacter</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="nav-bar">
+        <a href="home.html">Home</a>
+        <a href="projet.html">Mes projets</a>
+        <a href="aboutme.html">A propos de moi</a>
+        <a href="#">Me contacter</a>
+    </header>
+
+    <main>
+        <section class="contact-intro">
+            <h1>Me contacter</h1>
+            <p>Une question ou une proposition de stage ? Écrivez-moi !</p>
+        </section>
+
+        <section class="contact-form">
+
+            <form action="mailto:ton.email@exemple.fr" method="post" enctype="text/plain">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" autocomplete="name" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <section class="contact-liens">
+            <h2>Autres moyens</h2>
+            <p>E-mail</p>
+            <a href="mailto:ton.email@exemple.fr">opale.faure@gmail.com</a>
+            <p>LinkedIn</p>
+            <a href="https://www.linkedin.com/in/opale-faure/" target="_blank">https://www.linkedin.com/in/opale-faure/</a>
+            <p>GitHub</p>
+            <a href="https://github.com/penpale" target="_blank">https://github.com/penpale</a>
+        </section>
+    </main>
+
+</body>
+</html>
